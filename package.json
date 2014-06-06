@@ -1,0 +1,17 @@
+{
+  "name": "graveyard",
+  "version": "0.0.1",
+  "description": "This simple middleware will cache those 410 (gone) requests",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "middleware",
+    "cache",
+    "simple"
+  ],
+  "author": "Remy Sharp",
+  "license": "MIT"
+}
