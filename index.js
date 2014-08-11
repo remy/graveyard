@@ -5,7 +5,7 @@ var graveyard = function (req, res, next) {
   // if we have a hit on the cache, return the 410 early.
   var url = req.url.replace(/\?.*$/g, '');
   if (cache.indexOf(url) !== -1) {
-    return res.send(410);
+    return next(410);
   }
 
   // otherwise, attach to the headers being sent, and check if it's a 410
