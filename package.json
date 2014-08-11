@@ -1,6 +1,6 @@
 {
   "name": "graveyard",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "This simple middleware will cache those 410 (gone) requests",
   "main": "index.js",
   "scripts": {
