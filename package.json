@@ -4,7 +4,7 @@
   "description": "This simple middleware will cache those 410 (gone) requests",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "tape test/*.test.js | tap-spec"
   },
   "keywords": [
     "express",
@@ -13,5 +13,9 @@
     "simple"
   ],
   "author": "Remy Sharp",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "tap-spec": "^4.0.0",
+    "tape": "^4.0.0"
+  }
 }
