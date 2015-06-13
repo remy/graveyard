@@ -7,5 +7,5 @@ Usage:
 Where app is your express app, add this middleware nice and high in the middleware stack.
 
 ```js
-app.use(graveyard);
+app.use(require('graveyard')(['/url/to/ignore']));
 ```
